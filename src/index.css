@@ -9,6 +9,11 @@
   --color-primary-foreground: hsl(var(--primary-foreground));
 
   --color-card: hsl(var(--card));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
 
   --animate-float: float 6s ease-in-out infinite;
   --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
@@ -73,6 +78,11 @@
     --primary-foreground: 210 40% 98%;
 
     --border: 214 32% 91%;
+    --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
   }
 
   .dark {
@@ -85,6 +95,11 @@
     --primary-foreground: 213 31% 91%;
 
     --border: 217 33% 20%;
+    --secondary: 222 47% 12%;
+    --secondary-foreground: 213 31% 91%;
+
+    --muted: 222 47% 14%;
+    --muted-foreground: 215 20% 65%;
   }
 
   * {
